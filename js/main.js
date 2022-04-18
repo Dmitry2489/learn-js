@@ -11,7 +11,11 @@ const myDecimal = 5.7
 // Prevent Infinite Loops with a Valid Terminal Condition
 function myFunc() {
     for (let i = 1; i <= 4; i += 2) {
-      console.log("Still going!");
+        console.log("Still going!");
     }
-  }
+}
 // Prevent Infinite Loops with a Valid Terminal Condition End
+
+// Multiply Two Decimals with JavaScript
+const product = 2.0 * 2.5;
+// Multiply Two Decimals with JavaScript End
