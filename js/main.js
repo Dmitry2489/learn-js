@@ -19,3 +19,7 @@ function myFunc() {
 // Multiply Two Decimals with JavaScript
 const product = 2.0 * 2.5;
 // Multiply Two Decimals with JavaScript End
+
+// Divide One Decimal by Another with JavaScript
+const quotient = 4.4 / 2; // Change this line
+// Divide One Decimal by Another with JavaScript End
