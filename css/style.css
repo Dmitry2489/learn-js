@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.body{
+    color: #767E9E;
+    font-family: 'Lato', sans-serif;
+    overflow: hidden;
+}
