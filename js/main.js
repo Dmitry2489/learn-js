@@ -96,3 +96,7 @@ c /= 11;
 // Escaping Literal Quotes in Strings
 const myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Change this line
 // Escaping Literal Quotes in Strings End
+
+// Quoting Strings with Single Quotes
+const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
+// Quoting Strings with Single Quotes End
