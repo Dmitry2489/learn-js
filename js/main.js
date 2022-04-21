@@ -100,3 +100,7 @@ const myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Ch
 // Quoting Strings with Single Quotes
 const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
 // Quoting Strings with Single Quotes End
+
+// Concatenating Strings with Plus Operator
+const myStr = "This is the start." + " This is the end."; // Change this line
+// Concatenating Strings with Plus Operator End
