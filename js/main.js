@@ -104,3 +104,8 @@ const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
 // Concatenating Strings with Plus Operator
 const myStr = "This is the start." + " This is the end."; // Change this line
 // Concatenating Strings with Plus Operator End
+
+// Concatenating Strings with the Plus Equals Operator
+let myStr = "This is the first sentence.";
+myStr += " This is the second sentence.";
+// Concatenating Strings with the Plus Equals Operator End
