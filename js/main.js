@@ -109,3 +109,10 @@ const myStr = "This is the start." + " This is the end."; // Change this line
 let myStr = "This is the first sentence.";
 myStr += " This is the second sentence.";
 // Concatenating Strings with the Plus Equals Operator End
+
+
+// Constructing Strings with Variables
+// Only change code below this line
+const myName = "freeCodeCamp";
+const myStr = "Hello, our name is " + myName + ", how are you?";
+// Constructing Strings with Variables End
