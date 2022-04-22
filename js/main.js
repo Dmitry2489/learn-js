@@ -125,3 +125,13 @@ let myStr = "Learning to code is ";
 
 myStr += someAdjective
 // Appending Variables to Strings End
+
+
+// Find the Length of a String
+// Setup
+let lastNameLength = 0;
+const lastName = "Lovelace";
+
+// Only change code below this line
+lastNameLength = lastName.length;
+// Find the Length of a String End
