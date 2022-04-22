@@ -116,3 +116,12 @@ myStr += " This is the second sentence.";
 const myName = "freeCodeCamp";
 const myStr = "Hello, our name is " + myName + ", how are you?";
 // Constructing Strings with Variables End
+
+// Appending Variables to Strings
+
+// Change code below this line
+const someAdjective = "test";
+let myStr = "Learning to code is ";
+
+myStr += someAdjective
+// Appending Variables to Strings End
