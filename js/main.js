@@ -155,3 +155,13 @@ myStr = "Hello World"; // Change this line
 // Only change code above this line
 
 // Understand String Immutability End
+
+
+
+// Use Bracket Notation to Find the Nth Character in a String Start
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const thirdLetterOfLastName = lastName[2]; // Change this line
+// Use Bracket Notation to Find the Nth Character in a String End
