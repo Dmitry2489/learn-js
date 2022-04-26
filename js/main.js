@@ -182,3 +182,12 @@ const lastName = "Lovelace";
 // Only change code below this line
 const secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this line
 // Use Bracket Notation to Find the Nth-to-Last Character in a String  End
+
+// Word Blanks 
+
+// Word Blanks End
+
+// Store Multiple Values in one Variable using JavaScript Arrays
+// Only change code below this line
+const myArray = ['1', 3];
+// Store Multiple Values in one Variable using JavaScript Arrays End
