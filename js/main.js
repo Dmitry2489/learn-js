@@ -191,3 +191,8 @@ const secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change th
 // Only change code below this line
 const myArray = ['1', 3];
 // Store Multiple Values in one Variable using JavaScript Arrays End
+
+// Nest one Array within Another Array
+// Only change code below this line
+const myArray = [["Bulls", 23], ["White Sox", 45]];
+// Nest one Array within Another Array End
