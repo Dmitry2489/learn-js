@@ -196,3 +196,9 @@ const myArray = ['1', 3];
 // Only change code below this line
 const myArray = [["Bulls", 23], ["White Sox", 45]];
 // Nest one Array within Another Array End
+
+// Set Default Parameters for Your Functions
+// Only change code below this line
+const increment = (number = 5, value = 1) => number + value;
+// Only change code above this line
+// Set Default Parameters for Your Functions End
