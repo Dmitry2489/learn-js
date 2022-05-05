@@ -204,12 +204,39 @@ const increment = (number = 5, value = 1) => number + value;
 // Set Default Parameters for Your Functions End
 
 
+function cityModelInput(selectorsTrigers, input) {
 
+  let dilerSelectArray = document.querySelectorAll(selectorsTrigers)
 
+  dilerSelectArray.forEach(select => {
+      console.log(select)
 
+      select.addEventListener('change', ()=> {
+        let optionArray = select.querySelectorAll('option')
 
+        optionArray.forEach(option => {
+          // console.log(option.textContent)
+          // console.log(option.value)
 
+          if (select.value == option.value) {
+            console.log(option.textContent)
+            let formParent =  select.closest('form')
 
+            formParent.querySelector(input).value = option.textContent
 
+          }
+        })
 
+        console.log('change')
+        console.log(select.value)
+      })
+  })
+
+}
+
+cityModelInput('[data-diler="diler"]', '[data-input-form="city"]')
+cityModelInput('[data-city="city"]', '[data-input-form="city"]')
+cityModelInput('[data-model="model"]', '[data-input-form="model"]')
+cityModelInput('[data-topic="topic"]', '[data-input-form="topic"]')
+cityModelInput('[data-dilers="dilers"]', '[data-input-form="dilers"]')
 
