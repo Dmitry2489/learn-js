@@ -224,9 +224,6 @@ function cityModelInput(selectorsTrigers, input) {
 
           }
         })
-
-        console.log('change')
-        console.log(select.value)
       })
   })
 
