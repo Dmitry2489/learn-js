@@ -215,8 +215,6 @@ function cityModelInput(selectorsTrigers, input) {
         let optionArray = select.querySelectorAll('option')
 
         optionArray.forEach(option => {
-          // console.log(option.textContent)
-          // console.log(option.value)
 
           if (select.value == option.value) {
             console.log(option.textContent)
