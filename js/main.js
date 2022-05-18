@@ -215,6 +215,8 @@ function cityModelInput(selectorsTrigers, input) {
         let optionArray = select.querySelectorAll('option')
 
         optionArray.forEach(option => {
+          // console.log(option.textContent)
+          // console.log(option.value)
 
           if (select.value == option.value) {
             console.log(option.textContent)
@@ -224,6 +226,9 @@ function cityModelInput(selectorsTrigers, input) {
 
           }
         })
+
+        console.log('change')
+        console.log(select.value)
       })
   })
 
@@ -235,3 +240,43 @@ cityModelInput('[data-model="model"]', '[data-input-form="model"]')
 cityModelInput('[data-topic="topic"]', '[data-input-form="topic"]')
 cityModelInput('[data-dilers="dilers"]', '[data-input-form="dilers"]')
 
+
+$('.mask_card_set').slick({
+  infinite: true,
+  speed: 300,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  variableWidth: true,
+});
+
+const showAlert = function alertCustomMessage(event) {
+  // getting the data
+  const { data } = event.target;
+  alert(JSON.stringify(data));
+};
+
+const removeListener = function removeSpecificListenerFromElement(event) {
+  // same logic as at line 3
+  const { element, eventType, listener } = event.target.data;
+  element.removeEventListener(eventType, listener);
+};
+
+const alertButtonElement = document.querySelector('[data-action="alert"]');
+// setting the data to be shown
+alertButtonElement.data = {
+  title: 'Test title',
+  data: [1, 2, 4],
+};
+
+alertButtonElement.addEventListener('click', showAlert);
+
+
+const removeAlertListenerButtonElement = document.querySelector('[data-action="remove-alert-listener"]');
+// same logic as at lines 15-18
+removeAlertListenerButtonElement.data = {
+  element: alertButtonElement,
+  eventType: 'click',
+  listener: showAlert,
+};
+
+removeAlertListenerButtonElement.addEventListener('click', removeListener);
